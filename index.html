@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examining Document Object Properties</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="title">
+            <h1 class="title">Shopping List</h1>
+        </div>
+    
+        <form id="item-form" >
+            <div class="form-control">
+                <input 
+                    type="text" 
+                    class="form-input"
+                    id="item-input"
+                    placeholder="Enter Name"
+                />
+            </div>
+
+            <div class="form-control">
+                <button type="submit" class="'btn">
+                   <i class="fa fa-plus"></i> Add Item
+                </button>
+            </div>
+        </form>
+
+        <div class="filter">
+            <input 
+                type="text"
+                class="form-input-filter"
+                id="filter"
+                placeholder="filter Items"
+            >
+        </div>
+    
+        <ul id="item-list" class="items">
+            <li>
+                Apples
+                <button class="remove-item btn-link text-red">
+                    <i class="fa fa-trash-o"></i>
+                </button>
+            </li>
+            <li>
+                Orange Juice
+                <button class="remove-item btn-link text-red">
+                    <i class="fa fa-trash-o"></i>
+                </button>
+            </li>
+            <li>
+                Mango
+                <button class="remove-item btn-link text-red">
+                    <i class="fa fa-trash-o"></i>
+                </button>
+            </li>
+            <li>
+                Milk
+                <button class="remove-item btn-link text-red">
+                    <i class="fa fa-trash-o"></i>
+                </button>
+            </li>
+        </ul>
+
+        <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+
+    
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

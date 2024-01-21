@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cccccc;
+    margin: 20px 40px;
+}
+
+h1 {
+    color: rgb(35, 187, 14);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; optional, for centering text within elements */
+}
+
+/* Optional: Add some spacing or styling for better appearance */
+.form-control {
+    margin: 10px 0;
+}
+
+.items {
+    list-style: none;
+    padding: 0;
+}
+
+.btn-clear {
+    margin-top: 20px;
+}
+
+li {
+    width: 400px;
+    margin-top: 20px;
+    border: 2px  solid #d6d3d3;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-radius: 6px;
+}
+input:focus {
+    outline: 2px solid#15b2ce;
+}
+
+input {
+    width: 400px;
+    margin-top: 20px;
+    border: 2px  solid #d6d3d3;
+    background: white;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-radius: 6px;
+}
+
+.form-control button {
+    padding: 10px;
+    color: white;
+    background: #000;
+    cursor: pointer;
+}
+
+.form-control button i {
+    padding-right: 5px;
+}
+li button  {
+    border: none;
+}
+
+li button i {
+    color: red;
+    background-color: white;
+    /* padding: 2px; */
+    cursor: pointer;
+}
+
+.btn-clear {
+    background-color:black;
+    color: white;
+    width: 400px;
+    margin-top: 20px;
+    border: 2px  solid #d6d3d3;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
