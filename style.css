@@ -1,5 +1,5 @@
 *{
-    margin: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -36,7 +36,7 @@ h1 {
 }
 
 li {
-    width: 400px;
+    width: 350px;
     margin-top: 20px;
     border: 2px  solid #d6d3d3;
     background: white;
@@ -50,7 +50,7 @@ input:focus {
 }
 
 input {
-    width: 400px;
+    width: 350px;
     margin-top: 20px;
     border: 2px  solid #d6d3d3;
     background: white;
